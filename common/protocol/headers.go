@@ -3,9 +3,9 @@ package protocol
 import (
 	"runtime"
 
-	"github.com/xtls/xray-core/common/bitmask"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/aiempire79/mr-xray/common/bitmask"
+	"github.com/aiempire79/mr-xray/common/net"
+	"github.com/aiempire79/mr-xray/common/uuid"
 	"golang.org/x/sys/cpu"
 )
 

@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	. "github.com/xtls/xray-core/app/dns"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	dns_feature "github.com/xtls/xray-core/features/dns"
+	. "github.com/aiempire79/mr-xray/app/dns"
+	"github.com/aiempire79/mr-xray/common"
+	"github.com/aiempire79/mr-xray/common/net"
+	dns_feature "github.com/aiempire79/mr-xray/features/dns"
 )
 
 func TestTCPLocalNameServer(t *testing.T) {

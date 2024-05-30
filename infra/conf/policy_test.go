@@ -3,8 +3,8 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/infra/conf"
+	"github.com/aiempire79/mr-xray/common"
+	. "github.com/aiempire79/mr-xray/infra/conf"
 )
 
 func TestBufferSize(t *testing.T) {

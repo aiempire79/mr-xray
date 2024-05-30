@@ -8,12 +8,12 @@ import (
 	"hash/crc32"
 	"io"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/crypto"
-	"github.com/xtls/xray-core/common/drain"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/aiempire79/mr-xray/common"
+	"github.com/aiempire79/mr-xray/common/buf"
+	"github.com/aiempire79/mr-xray/common/crypto"
+	"github.com/aiempire79/mr-xray/common/drain"
+	"github.com/aiempire79/mr-xray/common/net"
+	"github.com/aiempire79/mr-xray/common/protocol"
 )
 
 const (

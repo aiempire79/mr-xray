@@ -3,7 +3,7 @@ package drain
 import (
 	"io"
 
-	"github.com/xtls/xray-core/common/dice"
+	"github.com/aiempire79/mr-xray/common/dice"
 )
 
 type BehaviorSeedLimitedDrainer struct {

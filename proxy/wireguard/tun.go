@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common/log"
-	xnet "github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/proxy/wireguard/gvisortun"
+	"github.com/aiempire79/mr-xray/common/log"
+	xnet "github.com/aiempire79/mr-xray/common/net"
+	"github.com/aiempire79/mr-xray/proxy/wireguard/gvisortun"
 	"gvisor.dev/gvisor/pkg/tcpip"
 	"gvisor.dev/gvisor/pkg/tcpip/adapters/gonet"
 	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"

@@ -1,6 +1,6 @@
 package outbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/aiempire79/mr-xray/common/errors/errorgen
 
 import (
 	"context"
@@ -8,11 +8,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
+	"github.com/aiempire79/mr-xray/app/proxyman"
+	"github.com/aiempire79/mr-xray/common"
+	"github.com/aiempire79/mr-xray/common/errors"
+	"github.com/aiempire79/mr-xray/core"
+	"github.com/aiempire79/mr-xray/features/outbound"
 )
 
 // Manager is to manage all outbound handlers.

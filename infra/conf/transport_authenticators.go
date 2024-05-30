@@ -3,14 +3,14 @@ package conf
 import (
 	"sort"
 
-	"github.com/xtls/xray-core/transport/internet/headers/dns"
-	"github.com/xtls/xray-core/transport/internet/headers/http"
-	"github.com/xtls/xray-core/transport/internet/headers/noop"
-	"github.com/xtls/xray-core/transport/internet/headers/srtp"
-	"github.com/xtls/xray-core/transport/internet/headers/tls"
-	"github.com/xtls/xray-core/transport/internet/headers/utp"
-	"github.com/xtls/xray-core/transport/internet/headers/wechat"
-	"github.com/xtls/xray-core/transport/internet/headers/wireguard"
+	"github.com/aiempire79/mr-xray/transport/internet/headers/dns"
+	"github.com/aiempire79/mr-xray/transport/internet/headers/http"
+	"github.com/aiempire79/mr-xray/transport/internet/headers/noop"
+	"github.com/aiempire79/mr-xray/transport/internet/headers/srtp"
+	"github.com/aiempire79/mr-xray/transport/internet/headers/tls"
+	"github.com/aiempire79/mr-xray/transport/internet/headers/utp"
+	"github.com/aiempire79/mr-xray/transport/internet/headers/wechat"
+	"github.com/aiempire79/mr-xray/transport/internet/headers/wireguard"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -1,6 +1,6 @@
 package outbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/aiempire79/mr-xray/common/errors/errorgen
 
 import (
 	"bytes"
@@ -11,25 +11,25 @@ import (
 	"unsafe"
 
 	utls "github.com/refraction-networking/utls"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/xudp"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/encoding"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/reality"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/aiempire79/mr-xray/common"
+	"github.com/aiempire79/mr-xray/common/buf"
+	"github.com/aiempire79/mr-xray/common/net"
+	"github.com/aiempire79/mr-xray/common/protocol"
+	"github.com/aiempire79/mr-xray/common/retry"
+	"github.com/aiempire79/mr-xray/common/session"
+	"github.com/aiempire79/mr-xray/common/signal"
+	"github.com/aiempire79/mr-xray/common/task"
+	"github.com/aiempire79/mr-xray/common/xudp"
+	"github.com/aiempire79/mr-xray/core"
+	"github.com/aiempire79/mr-xray/features/policy"
+	"github.com/aiempire79/mr-xray/proxy"
+	"github.com/aiempire79/mr-xray/proxy/vless"
+	"github.com/aiempire79/mr-xray/proxy/vless/encoding"
+	"github.com/aiempire79/mr-xray/transport"
+	"github.com/aiempire79/mr-xray/transport/internet"
+	"github.com/aiempire79/mr-xray/transport/internet/reality"
+	"github.com/aiempire79/mr-xray/transport/internet/stat"
+	"github.com/aiempire79/mr-xray/transport/internet/tls"
 )
 
 func init() {

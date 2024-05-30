@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	routerService "github.com/xtls/xray-core/app/router/command"
-	"github.com/xtls/xray-core/main/commands/base"
+	routerService "github.com/aiempire79/mr-xray/app/router/command"
+	"github.com/aiempire79/mr-xray/main/commands/base"
 )
 
 // TODO: support "-json" flag for json output

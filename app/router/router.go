@@ -1,18 +1,18 @@
 package router
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/aiempire79/mr-xray/common/errors/errorgen
 
 import (
 	"context"
 	sync "sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/routing"
-	routing_dns "github.com/xtls/xray-core/features/routing/dns"
+	"github.com/aiempire79/mr-xray/common"
+	"github.com/aiempire79/mr-xray/common/serial"
+	"github.com/aiempire79/mr-xray/core"
+	"github.com/aiempire79/mr-xray/features/dns"
+	"github.com/aiempire79/mr-xray/features/outbound"
+	"github.com/aiempire79/mr-xray/features/routing"
+	routing_dns "github.com/aiempire79/mr-xray/features/routing/dns"
 )
 
 // Router is an implementation of routing.Router.

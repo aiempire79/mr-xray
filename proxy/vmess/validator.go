@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/proxy/vmess/aead"
+	"github.com/aiempire79/mr-xray/common/dice"
+	"github.com/aiempire79/mr-xray/common/protocol"
+	"github.com/aiempire79/mr-xray/proxy/vmess/aead"
 )
 
 // TimedUserValidator is a user Validator based on time.

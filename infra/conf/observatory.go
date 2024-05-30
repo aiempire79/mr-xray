@@ -3,9 +3,9 @@ package conf
 import (
 	"google.golang.org/protobuf/proto"
 	
-	"github.com/xtls/xray-core/app/observatory"
-	"github.com/xtls/xray-core/app/observatory/burst"
-	"github.com/xtls/xray-core/infra/conf/cfgcommon/duration"
+	"github.com/aiempire79/mr-xray/app/observatory"
+	"github.com/aiempire79/mr-xray/app/observatory/burst"
+	"github.com/aiempire79/mr-xray/infra/conf/cfgcommon/duration"
 )
 
 type ObservatoryConfig struct {

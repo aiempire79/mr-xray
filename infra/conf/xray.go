@@ -8,13 +8,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/aiempire79/mr-xray/app/dispatcher"
+	"github.com/aiempire79/mr-xray/app/proxyman"
+	"github.com/aiempire79/mr-xray/app/stats"
+	"github.com/aiempire79/mr-xray/common/net"
+	"github.com/aiempire79/mr-xray/common/serial"
+	core "github.com/aiempire79/mr-xray/core"
+	"github.com/aiempire79/mr-xray/transport/internet"
 )
 
 var (

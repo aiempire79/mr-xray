@@ -6,13 +6,13 @@ import (
 	gotls "crypto/tls"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/udp"
+	"github.com/aiempire79/mr-xray/common"
+	"github.com/aiempire79/mr-xray/common/buf"
+	"github.com/aiempire79/mr-xray/common/net"
+	"github.com/aiempire79/mr-xray/transport/internet"
+	"github.com/aiempire79/mr-xray/transport/internet/stat"
+	"github.com/aiempire79/mr-xray/transport/internet/tls"
+	"github.com/aiempire79/mr-xray/transport/internet/udp"
 )
 
 type ConnectionID struct {

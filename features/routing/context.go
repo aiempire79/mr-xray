@@ -1,7 +1,7 @@
 package routing
 
 import (
-	"github.com/xtls/xray-core/common/net"
+	"github.com/aiempire79/mr-xray/common/net"
 )
 
 // Context is a feature to store connection information for routing.

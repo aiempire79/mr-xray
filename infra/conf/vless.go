@@ -8,13 +8,13 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/inbound"
-	"github.com/xtls/xray-core/proxy/vless/outbound"
+	"github.com/aiempire79/mr-xray/common/net"
+	"github.com/aiempire79/mr-xray/common/protocol"
+	"github.com/aiempire79/mr-xray/common/serial"
+	"github.com/aiempire79/mr-xray/common/uuid"
+	"github.com/aiempire79/mr-xray/proxy/vless"
+	"github.com/aiempire79/mr-xray/proxy/vless/inbound"
+	"github.com/aiempire79/mr-xray/proxy/vless/outbound"
 	"google.golang.org/protobuf/proto"
 )
 

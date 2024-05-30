@@ -6,8 +6,8 @@ import (
 	"unicode"
 	"math/rand"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/aiempire79/mr-xray/common"
+	"github.com/aiempire79/mr-xray/transport/internet"
 )
 
 const protocolName = "websocket"

@@ -8,17 +8,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/app/policy"
-	"github.com/xtls/xray-core/app/proxyman"
-	. "github.com/xtls/xray-core/app/proxyman/outbound"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/session"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/proxy/freedom"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/aiempire79/mr-xray/app/policy"
+	"github.com/aiempire79/mr-xray/app/proxyman"
+	. "github.com/aiempire79/mr-xray/app/proxyman/outbound"
+	"github.com/aiempire79/mr-xray/app/stats"
+	"github.com/aiempire79/mr-xray/common/net"
+	"github.com/aiempire79/mr-xray/common/serial"
+	"github.com/aiempire79/mr-xray/common/session"
+	core "github.com/aiempire79/mr-xray/core"
+	"github.com/aiempire79/mr-xray/features/outbound"
+	"github.com/aiempire79/mr-xray/proxy/freedom"
+	"github.com/aiempire79/mr-xray/transport/internet/stat"
 )
 
 func TestInterfaces(t *testing.T) {

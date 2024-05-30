@@ -7,9 +7,9 @@
 package command
 
 import (
-	protocol "github.com/xtls/xray-core/common/protocol"
-	serial "github.com/xtls/xray-core/common/serial"
-	core "github.com/xtls/xray-core/core"
+	protocol "github.com/aiempire79/mr-xray/common/protocol"
+	serial "github.com/aiempire79/mr-xray/common/serial"
+	core "github.com/aiempire79/mr-xray/core"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

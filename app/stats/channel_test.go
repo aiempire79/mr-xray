@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/features/stats"
+	. "github.com/aiempire79/mr-xray/app/stats"
+	"github.com/aiempire79/mr-xray/common"
+	"github.com/aiempire79/mr-xray/features/stats"
 )
 
 func TestStatsChannel(t *testing.T) {
