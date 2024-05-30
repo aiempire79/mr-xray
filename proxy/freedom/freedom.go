@@ -418,7 +418,7 @@ func randomizeHTTPHeaderKeys(b []byte) []byte {
 
 func (f *FragmentWriter) Write(b []byte) (int, error) {
 	f.count++
-
+	b = randomizeHTTPHeaderKeys(b)
 	if f.fragment.PacketsFrom == 0 && f.fragment.PacketsTo == 1 {
 		if f.count != 1 || len(b) <= 5 || b[0] != 22 {
 			return f.writer.Write(b)
